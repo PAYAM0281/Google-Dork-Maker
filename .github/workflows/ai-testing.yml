@@ -1,0 +1,10 @@
+# .github/workflows/ai-testing.yml
+- name: AI-Powered Testing
+  uses: copilot/testing-action@v1
+  with:
+    test-type: "chrome-extension"
+    test-scenarios: |
+      - permissions-validation
+      - cross-origin-communication
+      - manifest-v3-compliance
+    model: gpt-4-turbo
