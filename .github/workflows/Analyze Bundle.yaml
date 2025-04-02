@@ -1,4 +1,1 @@
- name: Analyze Bundle
-  run:
-    npm install -g source-map-explorer
-    source-map-explorer build/static/js/*.js --html report.html
+
